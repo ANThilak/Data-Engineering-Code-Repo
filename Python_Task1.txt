@@ -1,0 +1,157 @@
+Python:
+
+Task1:
+The following program throws an indentation error. Correct it and make sure it prints properly.
+
+teams = ['Data', 'AI', 'DevOps']
+for t in teams:
+print('Hello', t, 'Team from Inceptez Technologies')
+  print('Keep Learning and Exploring!')
+  
+RESULT:
+=======
+teams = ['Data', 'AI', 'DevOps']
+for t in teams:
+  print('Hello', t, 'Team from Inceptez Technologies')
+print('Keep Learning and Exploring!')
+
+Task 2:
+Use Case 1:
+Add single-line and multi-line comments to describe what the below code does for Inceptez Technologies’ training tracker.
+
+RESULT:
+=======
+students = 100
+trainers = 2
+total = students + trainers
+print(total)
+
+
+students = 100   #Value of 100 is assigned to students variable
+trainers = 2     #Value of 2 is assigned to trainers variable
+"""
+Add students and trainers and print how many members are present in total
+using print method
+"""
+total = students + trainers
+print(total)     #Total members are printed
+
+case 2:
+Convert the below block into a “dead code” using comments, then re-activate it later to print
+print("Welcome to Inceptez Python Learning")
+
+
+RESULT:
+=======
+#print("Welcome to Inceptez Python Learning")
+print("Welcome to Inceptez Python Learning")
+
+Task 3:
+Use Case 1:
+Create three string variables that correctly store and print:
+
+This is Inceptez's "Python" class for Data Engineers & AI Engineers
+→ Use single, double, and triple quotes appropriately.
+
+RESULT:
+=======
+var1 = '''This is Inceptez's "Python" class for Data Engineers & AI Engineers'''
+var2 = """This is Inceptez's "Python" class for Data Engineers & AI Engineers"""
+var3 = 'This is Inceptez\'s "Python" class for Data Engineers & AI Engineers'
+var4 = "This is Inceptez's \"Python\" class for Data Engineers & AI Engineers"
+
+print(f"values of var1: {var1}")
+print(f"values of var2: {var2}")
+print(f"values of var3: {var3}")
+print(f"values of var4: {var4}")
+
+
+Use Case 2:
+Write a multiline string using triple quotes that prints:
+
+Welcome to Inceptez Technologies!
+Python Training: Basics
+Enjoy your learning journey.
+
+RESULT:
+=======
+var = """Welcome to Inceptez Technologies!
+Python Training: Basics
+Enjoy your learning journey."""
+print(var)
+
+var1 = '''
+Welcome to Inceptez Technologies!
+Python Training: Basics
+Enjoy your learning journey.
+'''
+print(var1)
+
+
+Task 4: 
+Use Case 1:
+Declare variables to store the following details:
+- Student Name
+- Course Name (e.g., “Python Fundamentals”)
+- Training Institute Name (Inceptez Technologies)
+
+Then print a formatted message:
+
+Name: Arun is learning the course Python Fundamentals at the institute Inceptez Technologies
+
+RESULT:
+=======
+student_name ="Thilak"
+course_name ="Python Fundamentals"
+institute_name ="Inceptez Technologies"
+
+print (f"{student_name} is learning the course {course_name} at the institute {institute_name}")
+
+Use Case 2:
+Demonstrate dynamic inference, dynamic typing using with fee by applying .18 gst  and prove strongly typing character also by operating it with Eighteen percent gst
+
+fee = 45000
+
+RESULT:
+=======
+fee:int = 45000
+print(type(fee))
+gst_amt = 45000 * .18    #dynamic inference
+print(type(gst_amt))
+fee = fee + gst_amt
+print(type(fee))   #data type changes from int to float Dynamic binding
+gst_value = 'Eighteen percent'
+fee = fee + gst_value;
+print(type(fee))   #Strongly typed "Unspported Operand error is raised"
+
+
+
+Task 5:
+Use Case 1:
+Identify which variable names below are invalid for Inceptez’s student database:
+
+1) 2student = 'Ravi'
+2) _student_id = 1001
+3) studentName = 'Priya'
+4) class name = 'Python'
+5) inceptez_batch = 'Morning'
+
+RESULT:
+=======
+1 and 4 is invalid because 1 starts with number and 4 contains space
+
+
+Use Case 2:
+Declare 3 variables following naming styles for Inceptez projects:
+
+PascalCase: DataEngineeringBatch
+camelCase: dataEngineeringBatch
+snake_case: data_engineering_batch
+
+RESULT:
+=======
+InceptezProjects = 'Pascal Case Declaration'
+inceptezProjects = 'Camel Case Declaration'
+Inceptez_projects = 'Snake Case Declaration'
+
+
